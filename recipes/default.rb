@@ -8,6 +8,7 @@
 #
 
 case node['ioncube']['php_version']
+when "5.3" then phpapi = "20090626"
 when "5.4" then phpapi = "20120301"
 else
   Chef::Application.fatal!("You need to specify a PHP version")
