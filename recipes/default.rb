@@ -17,7 +17,7 @@ end
 
 remote_file "/var/tmp/ioncube_loaders_sun_x86.tar.bz2" do
   source "http://downloads2.ioncube.com/loader_downloads/ioncube_loaders_sun_x86.tar.bz2"
-  checksum "294f9a6b2555c04b31730c9f6cf2bf10f23fc0e46cb49e8b3147f75f867e3021"
+  checksum "e7b0478a27047675decb06b066f95b8743fe4e2d9f57821a13323eeb92b42872"
 end
 
 execute "untar-ioncube-loaders" do
