@@ -8,5 +8,5 @@
 #
 
 default['ioncube'] = {
-  'php_version' => '5.4',
+  'php_version' => '5.5',
 }
