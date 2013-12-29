@@ -15,10 +15,6 @@ else
   Chef::Application.fatal!("You need to specify a PHP version")
 end
 
-if node['ioncube']['php_version'] == "5.5"
-  Chef::Application.fatal!("Ioncube does not presently support PHP 5.5.x.")
-end
-
 remote_file "/var/tmp/ioncube_loaders_sun_x86.tar.bz2" do
   source "http://downloads2.ioncube.com/loader_downloads/ioncube_loaders_sun_x86.tar.bz2"
   checksum "294f9a6b2555c04b31730c9f6cf2bf10f23fc0e46cb49e8b3147f75f867e3021"
